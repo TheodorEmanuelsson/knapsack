@@ -6,6 +6,10 @@ Problem statement: Consider a knapsack that can take a limited weight W, and the
 
 The problem is an NP-hard problem. In this package a brute force search algorithm, a greedy approximation algorithm and a dynamic programming algorithm is implemented.
 
+## Installation
+
+run > devtools::install_github("https://github.com/TheodorEmanuelsson/knapsack") in R console.
+
 ## Brute force search
 
 This solution, `brute_force_knapsack()`, is guaranteed to give the correct optimal knapsack in all situation as the algorithm considers all possible combinations and returns the maximum value. Although precises, the solution is in efficient with complexity of O(2^n). This since all 2^n combinations are evaluated.
