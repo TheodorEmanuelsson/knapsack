@@ -8,7 +8,7 @@ The problem is an NP-hard problem. In this package a brute force search algorith
 
 ## Installation
 
-run > devtools::install_github("https://github.com/TheodorEmanuelsson/knapsack") in R console.
+run > `devtools::install_github("https://github.com/TheodorEmanuelsson/knapsack")` in R console.
 
 ## Brute force search
 
