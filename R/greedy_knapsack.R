@@ -23,7 +23,6 @@ greedy_knapsack <- function(x, W, opt = TRUE){
   currweight <- 0
   
   i <- 0
-  
   # in a first step we choose all top observations that still fit in the sack and 
   # and stop if the next one is not fitting anymore
   repeat{
@@ -53,6 +52,5 @@ greedy_knapsack <- function(x, W, opt = TRUE){
       if(j >= nrow(x)) break 
     }
   }
-  
   return(list(value = round(currval), elements = currele))
 }

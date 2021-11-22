@@ -54,15 +54,3 @@ brute_force_knapsack <- function(x, W, parallel = FALSE){
   elements <- which(intToBits(position) > 0)
   return(list(value = value, elements = elements))
 }
-
-
-## TESTING AREA
-#n <- 16
-#df <- create_knapsack_data(n)
-#W <- 3500
-#nonparallel <- brute_force_knapsack(df, W = 3500)
-#parallel <- brute_force_knapsack(df, W = 3500, parallel = TRUE)
-
-# TESTING SPEED
-#system.time(nonparallel <- brute_force_knapsack(df, W = 3500)) #21.937 sec(Linux) # 31.368 sec (Mac)
-#system.time(parallel <- brute_force_knapsack(df, W = 3500, parallel = TRUE)) # 2.382 sec (Linux 20 cores), 16.182 sec (Mac 4 cores)
