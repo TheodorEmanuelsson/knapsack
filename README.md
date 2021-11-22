@@ -22,5 +22,5 @@ A simple heuristic solution, `greedy_knapsack()` to the problem with computation
 
 ## Dynamic solutions
 
-This algorithm is a much more efficient solution compared to the brute force search approach and is more precise that the greedy approach. It has complexity O(Wn). The approach based on building a matrix with $n$ rows and $W$ columns where each cell represents the value gained for that item if W = 1, ..., W.
+This algorithm, `knapsack_dynamic()`, is a much more efficient solution compared to the brute force search approach and is more precise that the greedy approach. It has complexity O(Wn). The approach based on building a matrix with $n$ rows and $W$ columns where each cell represents the value gained for that item if W = 1, ..., W.
 .
