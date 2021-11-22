@@ -1,3 +1,3 @@
-#' knapsack:
+#' knapsack
 #' 
 "_PACKAGE"
